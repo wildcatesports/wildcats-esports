@@ -1,0 +1,79 @@
+{
+  "events": [
+    {
+      "id": "algs-watchparty",
+      "title": "ALGS Year 5 Watch Party",
+      "date": "2026-01-17",
+      "dateDisplay": "January 17, 2026",
+      "location": "WLAC Campus",
+      "description": "Joined together to watch the ALGS Year 5 championship matches live, cheering on our favorite teams and players.",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-baby-blue",
+      "image": "/images/events/algsYear5.JPG",
+      "imageAlt": "ALGS Watch Party on Discord",
+      "galleryId": "algs-watchparty"
+    },
+    {
+      "id": "dave-busters",
+      "title": "Dave & Busters Community Outing",
+      "date": "2025-12-20",
+      "dateDisplay": "December 20, 2025",
+      "location": "Dave & Busters",
+      "description": "Club members headed out to Dave & Busters for a night of arcade games, food, and good times together as a community.",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/dave&busters1.JPG",
+      "imageAlt": "Dave & Busters Community Outing",
+      "galleryId": "dave-busters"
+    },
+    {
+      "id": "holly-jolly",
+      "title": "Holly Jolly Smash Bros Tournament",
+      "date": "2025-12-04",
+      "dateDisplay": "December 4, 2025",
+      "location": "WLAC Campus",
+      "description": "A festive holiday Smash Bros tournament where members competed for glory and holiday cheer.",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/hollyjolly-1.JPG",
+      "imageAlt": "Holly Jolly Smash Bros Tournament",
+      "galleryId": "holly-jolly"
+    },
+    {
+      "id": "friendsgiving",
+      "title": "Thanksgiving/Friendsgiving",
+      "date": "2025-11-26",
+      "dateDisplay": "November 26, 2025",
+      "location": "WLAC Campus",
+      "description": "Celebrated Friendsgiving with fellow club members, sharing food and gratitude before the holiday break.",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/friendsgiving-group.JPG",
+      "imageAlt": "Thanksgiving/Friendsgiving gathering",
+      "galleryId": "friendsgiving"
+    },
+    {
+      "id": "spooky-smash",
+      "title": "Spooky Smash Bros Tournament",
+      "date": "2025-10-30",
+      "dateDisplay": "October 30, 2025",
+      "location": "WLAC Campus",
+      "description": "A Halloween-themed Smash Bros tournament with costumes, spooky vibes, and intense competition.",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-seance",
+      "image": "/images/events/spookysmash1.JPG",
+      "imageAlt": "Spooky Smash Bros Tournament",
+      "galleryId": "spooky-smash"
+    }
+  ]
+}
