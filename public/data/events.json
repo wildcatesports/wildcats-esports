@@ -104,6 +104,21 @@
       "image": "/images/events/20260325_142959.jpg",
       "imageAlt": "Mario Kart Madness",
       "galleryId": "mario-kart-madness"
+    },
+    {
+      "id": "valentines-day",
+      "title": "Valentine's Day",
+      "date": "2026-02-11",
+      "dateDisplay": "February 11, 2026",
+      "location": "TLC 405",
+      "description": "For Valentine's Day, we all made Valentine's to our video game crushes. Can you guess who made which one? ;)",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/Untitled_design.PNG",
+      "imageAlt": "Valentine's Day",
+      "galleryId": "valentines-day"
     }
   ]
 }
