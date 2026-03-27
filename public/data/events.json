@@ -103,6 +103,42 @@
       ]
     },
     {
+      "id": "mario-kart-madness",
+      "title": "Mario Kart Madness",
+      "date": "2026-03-25",
+      "dateDisplay": "March 25, 2026",
+      "location": "TLC 404",
+      "description": "Our first Mario Kart Tournament! 12 players competed against each other to find the best racer.",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/20260325_142959.jpg",
+      "imageAlt": "Mario Kart Madness",
+      "galleryId": "mario-kart-madness",
+      "gallery": [
+        "/images/events/20260325_142959.jpg"
+      ]
+    },
+    {
+      "id": "valentines-day",
+      "title": "Valentine's Day",
+      "date": "2026-02-11",
+      "dateDisplay": "February 11, 2026",
+      "location": "TLC 405",
+      "description": "For Valentine's Day, we all made Valentine's to our video game crushes. Can you guess who made which one? ;)",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/Untitled_design.PNG",
+      "imageAlt": "Valentine's Day",
+      "galleryId": "valentines-day",
+      "gallery": [
+        "/images/events/Untitled_design.PNG"
+      ]
+    },
+    {
       "id": "test-event-1",
       "title": "test event 1",
       "date": "2026-04-15",
