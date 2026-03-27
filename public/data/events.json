@@ -76,21 +76,6 @@
       "galleryId": "spooky-smash"
     },
     {
-      "id": "test-event-1",
-      "title": "test event 1",
-      "date": "2026-04-15",
-      "dateDisplay": "April 15, 2026",
-      "location": "da club",
-      "description": "parti",
-      "status": "upcoming",
-      "badgeClass": "badge-upcoming",
-      "badgeText": "Upcoming",
-      "dateColor": "text-baby-blue",
-      "image": "/images/events/placeholder.jpg",
-      "imageAlt": "test event 1",
-      "galleryId": null
-    },
-    {
       "id": "mario-kart-madness",
       "title": "Mario Kart Madness",
       "date": "2026-03-25",
