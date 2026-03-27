@@ -13,7 +13,10 @@
       "dateColor": "text-baby-blue",
       "image": "/images/events/algsYear5.JPG",
       "imageAlt": "ALGS Watch Party on Discord",
-      "galleryId": "algs-watchparty"
+      "galleryId": "algs-watchparty",
+      "gallery": [
+        "/images/events/algsYear5.JPG"
+      ]
     },
     {
       "id": "dave-busters",
@@ -28,7 +31,13 @@
       "dateColor": "text-energy-yellow",
       "image": "/images/events/dave&busters1.JPG",
       "imageAlt": "Dave & Busters Community Outing",
-      "galleryId": "dave-busters"
+      "galleryId": "dave-busters",
+      "gallery": [
+        "/images/events/dave&busters1.JPG",
+        "/images/events/dave&busters2.JPG",
+        "/images/events/dave&busters3.JPG",
+        "/images/events/dave&busters4.JPG"
+      ]
     },
     {
       "id": "holly-jolly",
@@ -43,7 +52,13 @@
       "dateColor": "text-energy-yellow",
       "image": "/images/events/hollyjolly-1.JPG",
       "imageAlt": "Holly Jolly Smash Bros Tournament",
-      "galleryId": "holly-jolly"
+      "galleryId": "holly-jolly",
+      "gallery": [
+        "/images/events/hollyjolly-1.JPG",
+        "/images/events/hollyjolly2.JPG",
+        "/images/events/hollyjolly3.JPG",
+        "/images/events/hollyjolly4.JPG"
+      ]
     },
     {
       "id": "friendsgiving",
@@ -58,7 +73,13 @@
       "dateColor": "text-energy-yellow",
       "image": "/images/events/friendsgiving-group.JPG",
       "imageAlt": "Thanksgiving/Friendsgiving gathering",
-      "galleryId": "friendsgiving"
+      "galleryId": "friendsgiving",
+      "gallery": [
+        "/images/events/friendsgiving-group.JPG",
+        "/images/events/friendsgiving1.JPG",
+        "/images/events/friendsgiving2.JPG",
+        "/images/events/friendsgiving3.JPG"
+      ]
     },
     {
       "id": "spooky-smash",
@@ -73,7 +94,13 @@
       "dateColor": "text-seance",
       "image": "/images/events/spookysmash1.JPG",
       "imageAlt": "Spooky Smash Bros Tournament",
-      "galleryId": "spooky-smash"
+      "galleryId": "spooky-smash",
+      "gallery": [
+        "/images/events/spookysmash1.JPG",
+        "/images/events/spookysmash2.JPG",
+        "/images/events/spookysmash3.JPG",
+        "/images/events/spookysmash4.JPG"
+      ]
     },
     {
       "id": "test-event-1",
@@ -88,7 +115,8 @@
       "dateColor": "text-baby-blue",
       "image": "/images/events/placeholder.jpg",
       "imageAlt": "test event 1",
-      "galleryId": null
+      "galleryId": null,
+      "gallery": []
     }
   ]
 }
