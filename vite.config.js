@@ -12,6 +12,7 @@ export default defineConfig({
         events: './events.html',
         gallery: './gallery.html',
         leadership: 'leadership.html',
+        display: './display.html',
       }
     }
   }

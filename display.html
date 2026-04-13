@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WLAC Esports — Display</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background: #1d1932;
+      }
+
+      #slide-content {
+        transition: opacity 0.4s ease;
+      }
+
+      #progress-fill {
+        height: 100%;
+        width: 0;
+        background: linear-gradient(90deg, #82d6ff, #7d2299, #f7d760);
+        background-size: 200% 100%;
+      }
+
+      @keyframes progress {
+        from { width: 0%; }
+        to   { width: 100%; }
+      }
+    </style>
+  </head>
+  <body class="bg-mirage text-white">
+
+    <!-- ── Top Bar ─────────────────────────────────────────────────────────── -->
+    <div id="top-bar"
+         class="flex justify-between items-center px-10 border-b border-baby-blue/20"
+         style="height: 72px; background: rgba(43,35,83,0.9);">
+      <div>
+        <span class="font-black text-white tracking-tight" style="font-size: 1.75rem;">WLAC </span>
+        <span class="font-black text-baby-blue tracking-tight" style="font-size: 1.75rem;">ESPORTS</span>
+      </div>
+      <div id="clock"
+           class="font-mono text-baby-blue tabular-nums"
+           style="font-size: 1.5rem; letter-spacing: 0.05em;">
+      </div>
+    </div>
+
+    <!-- ── Main Slide Area ────────────────────────────────────────────────── -->
+    <div id="slide-content"
+         class="w-full"
+         style="height: calc(100vh - 72px - 6px);">
+      <!-- Injected by display.js -->
+    </div>
+
+    <!-- ── Progress Bar ───────────────────────────────────────────────────── -->
+    <div style="height: 6px; background: rgba(43,35,83,0.8);" class="w-full">
+      <div id="progress-fill"></div>
+    </div>
+
+    <script type="module" src="/src/js/display.js"></script>
+  </body>
+</html>

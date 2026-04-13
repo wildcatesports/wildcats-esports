@@ -118,7 +118,6 @@
       "galleryId": "mario-kart-madness",
       "gallery": [
         "/images/events/20260325_142959.jpg",
-        "/images/events/20260325_142959.jpg",
         "/images/events/IMG_1197.JPG",
         "/images/events/20260325_143704.jpg",
         "/images/events/20260325_1504560.JPG"
@@ -145,22 +144,6 @@
         "/images/events/IMG_0809.jpg",
         "/images/events/IMG_0812.jpg"
       ]
-    },
-    {
-      "id": "test-event-1",
-      "title": "test event 1",
-      "date": "2026-04-15",
-      "dateDisplay": "April 15, 2026",
-      "location": "da club",
-      "description": "parti",
-      "status": "upcoming",
-      "badgeClass": "badge-upcoming",
-      "badgeText": "Upcoming",
-      "dateColor": "text-baby-blue",
-      "image": "/images/events/placeholder.jpg",
-      "imageAlt": "test event 1",
-      "galleryId": null,
-      "gallery": []
     }
   ]
 }
