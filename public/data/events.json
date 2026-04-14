@@ -144,6 +144,24 @@
         "/images/events/IMG_0809.jpg",
         "/images/events/IMG_0812.jpg"
       ]
+    },
+    {
+      "id": "comic-bug-outing",
+      "title": "Comic Bug Outing",
+      "date": "2026-04-15",
+      "dateDisplay": "April 15, 2026",
+      "location": "Comic Bug (Culver City location)",
+      "description": "Members only event! To celebrate Comic Bug's sponsorship, we made a trip to the Comic Bug to pick out some comics and use our 10% discount.",
+      "status": "upcoming",
+      "badgeClass": "badge-upcoming",
+      "badgeText": "Upcoming",
+      "dateColor": "text-baby-blue",
+      "image": "/images/events/ComicBugLogoRound-1902608207.png",
+      "imageAlt": "Comic Bug Outing",
+      "galleryId": "comic-bug-outing",
+      "gallery": [
+        "/images/events/ComicBugLogoRound-1902608207.png"
+      ]
     }
   ]
 }
