@@ -12,15 +12,17 @@
          ───────────────────────────────────────── */
          .banner-apex {
             background:
-               radial-gradient(ellipse 70% 80% at 92% 15%, rgba(130, 214, 255, 0.18) 0%, transparent 60%),
-               radial-gradient(ellipse 55% 60% at 5%  80%, rgba(82, 104, 171, 0.22)  0%, transparent 55%),
-               linear-gradient(155deg, #060c18 0%, #1d1932 50%, #2b2353 100%);
+               radial-gradient(ellipse 70% 80% at 92% 15%, rgba(130, 214, 255, 0.15) 0%, transparent 60%),
+               radial-gradient(ellipse 55% 60% at 5%  80%, rgba(82, 104, 171, 0.18)  0%, transparent 55%),
+               linear-gradient(to bottom, rgba(6,12,24,0.52) 0%, rgba(29,25,50,0.78) 100%),
+               url('/images/apex-roster-background.jpg') center/cover no-repeat;
          }
          .banner-rivals {
             background:
-               radial-gradient(ellipse 65% 70% at 90% 15%, rgba(125, 34, 153, 0.28)  0%, transparent 58%),
-               radial-gradient(ellipse 50% 55% at 6%  82%, rgba(179, 94, 159, 0.20)  0%, transparent 52%),
-               linear-gradient(155deg, #08040f 0%, #1d1932 50%, #280d42 100%);
+               radial-gradient(ellipse 65% 70% at 90% 15%, rgba(125, 34, 153, 0.22)  0%, transparent 58%),
+               radial-gradient(ellipse 50% 55% at 6%  82%, rgba(179, 94, 159, 0.16)  0%, transparent 52%),
+               linear-gradient(to bottom, rgba(8,4,15,0.50) 0%, rgba(29,25,50,0.78) 100%),
+               url('/images/marvel-rivals-background.jpg') center/cover no-repeat;
          }
          #game-banner { transition: background 0.6s ease; }
 
@@ -60,11 +62,11 @@
          }
          .ticker-item {
             padding: 0 2.5rem;
-            font-size: 0.7rem;
-            font-weight: 700;
+            font-size: 0.75rem;
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 0.12em;
-            color: rgba(192,201,229,0.7);
+            color: rgba(255,255,255,0.88);
          }
          .ticker-sep {
             color: rgba(130,214,255,0.35);
@@ -214,7 +216,27 @@
          .player-card:hover .player-desc { max-height: 160px; opacity: 1; margin-top: 10px; }
 
          .apex-section  .player-card:hover { border-color: rgba(130,214,255,0.3); box-shadow: 0 20px 48px rgba(130,214,255,0.10); }
-         .rivals-section .player-card:hover { border-color: rgba(179,94,159,0.3); box-shadow: 0 20px 48px rgba(179,94,159,0.12); }
+         .rivals-section .player-card { height: 340px; }
+         .rivals-section .player-card:hover { border-color: rgba(179,94,159,0.55); box-shadow: inset 0 0 40px rgba(179,94,159,0.10), 0 0 18px rgba(179,94,159,0.10); }
+         /* rivals — lighter default overlay, photo stays visible at rest */
+         .rivals-section .player-card .card-overlay {
+            background: linear-gradient(
+               to top,
+               rgba(10,8,22,0.88) 0%,
+               rgba(10,8,22,0.22) 32%,
+               rgba(10,8,22,0.04) 56%,
+               transparent 100%
+            );
+         }
+         /* hover barely changes — just enough to keep username readable */
+         .rivals-section .player-card:hover .card-overlay {
+            background: linear-gradient(
+               to top,
+               rgba(10,8,22,0.90) 0%,
+               rgba(10,8,22,0.18) 30%,
+               transparent 52%
+            );
+         }
          .apex-section   .role-badge { color:#82d6ff; border-color:rgba(130,214,255,0.4); }
          .rivals-section .role-badge { color:#b35e9f; border-color:rgba(179,94,159,0.4); }
 
@@ -627,35 +649,27 @@
                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
                   <div class="player-card">
-                     <img src="/images/team/Marco.JPG" alt="Marco"/>
-                     <div class="card-overlay"></div>
-                     <div class="role-badge">Co-IGL</div>
-                     <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">Marco</h4>
-                        <p class="text-baby-blue text-xs font-bold uppercase tracking-widest mt-1">Co-In-Game Leader</p>
-                        <p class="player-desc text-periwinkle-gray/80 text-sm leading-relaxed">Steps up with decisive calls when the IGL is focused on combat. Ensures communication flows smoothly during intense moments.</p>
-                     </div>
-                  </div>
-
-                  <div class="player-card">
-                     <img src="/images/team/Jay.JPG" alt="Jay Castro" style="object-position:center 70%;"/>
+                     <img src="/images/team/jaycbytes-pose.jpg" alt="jaycbytes"/>
                      <div class="card-overlay"></div>
                      <div class="role-badge">IGL</div>
                      <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">Jay Castro</h4>
-                        <p class="text-baby-blue text-xs font-bold uppercase tracking-widest mt-1">In-Game Leader</p>
-                        <p class="player-desc text-periwinkle-gray/80 text-sm leading-relaxed">Primary shot-caller who coordinates rotations and directs match strategy. Reads the battlefield and guides the team to optimal positioning.</p>
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">jaycbytes</h4>
                      </div>
                   </div>
 
                   <div class="player-card">
-                     <img src="/images/team/Rob.JPG" alt="Rob"/>
+                     <img src="/images/team/khaotic-pose.jpg" alt="Khaotic"/>
                      <div class="card-overlay"></div>
-                     <div class="role-badge">Support</div>
                      <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">Rob</h4>
-                        <p class="text-baby-blue text-xs font-bold uppercase tracking-widest mt-1">Support</p>
-                        <p class="player-desc text-periwinkle-gray/80 text-sm leading-relaxed">The backbone who enables aggressive plays through smart utility usage. Maintains team cohesion and provides crucial cover fire.</p>
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">Khaotic</h4>
+                     </div>
+                  </div>
+
+                  <div class="player-card">
+                     <img src="/images/team/marco-pose.jpg" alt="Marcocoolnes"/>
+                     <div class="card-overlay"></div>
+                     <div class="player-info">
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">Marcocoolnes</h4>
                      </div>
                   </div>
 
@@ -665,23 +679,23 @@
                <div class="flex items-center gap-3 mt-14 mb-10">
                   <div class="w-0.5 h-7 rounded-full bg-baby-blue" style="box-shadow:0 0 10px rgba(130,214,255,0.7)"></div>
                   <span class="text-white font-black text-lg uppercase tracking-wide">Team 2</span>
-                  <span class="text-periwinkle-gray/35 text-sm">· Open Slots</span>
+                  <span class="text-periwinkle-gray/35 text-sm">· 2 Players</span>
                </div>
 
                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                  <div class="slot-card">
-                     <svg class="w-8 h-8 text-waikawa-gray/25" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
-                     </svg>
-                     <p class="text-waikawa-gray/35 text-xs font-bold uppercase tracking-widest">Open Slot</p>
+                  <div class="player-card" style="background: linear-gradient(135deg, rgba(43,35,83,0.5) 0%, rgba(29,25,50,0.9) 100%); border: 1px dashed rgba(130,214,255,0.15);">
+                     <div class="player-info">
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">noodles4nubz</h4>
+                     </div>
                   </div>
-                  <div class="slot-card">
-                     <svg class="w-8 h-8 text-waikawa-gray/25" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
-                     </svg>
-                     <p class="text-waikawa-gray/35 text-xs font-bold uppercase tracking-widest">Open Slot</p>
+
+                  <div class="player-card" style="background: linear-gradient(135deg, rgba(43,35,83,0.5) 0%, rgba(29,25,50,0.9) 100%); border: 1px dashed rgba(130,214,255,0.15);">
+                     <div class="player-info">
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">OGVetDad</h4>
+                     </div>
                   </div>
+
                   <div class="slot-card">
                      <svg class="w-8 h-8 text-waikawa-gray/25" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
@@ -744,6 +758,7 @@
                   <div class="player-card">
                      <img src="/images/team/marco-pose.jpg" alt="Marcocoolnes"/>
                      <div class="card-overlay"></div>
+                     <div class="role-badge">IGL</div>
                      <div class="player-info">
                         <h4 class="text-2xl font-black text-white uppercase leading-none">Marcocoolnes</h4>
                      </div>
