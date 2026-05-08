@@ -20,6 +20,79 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
+/* Shared background textures */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.diag-lines {
+  background-image: repeating-linear-gradient(
+    -55deg, transparent, transparent 40px,
+    rgba(130,214,255,0.025) 40px, rgba(130,214,255,0.025) 41px
+  );
+}
+
+/* ── Shared news ticker ── */
+.ticker-outer {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.ticker-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  animation: ticker-scroll 55s linear infinite;
+  will-change: transform;
+}
+.ticker-track:hover { animation-play-state: paused; }
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-item {
+  padding: 0 2.5rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255,255,255,0.88);
+}
+.ticker-sep {
+  color: rgba(130,214,255,0.35);
+  font-size: 0.55rem;
+  flex-shrink: 0;
+}
+.ticker-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px;
+  height: 100%;
+  border-right: 1px solid rgba(130,214,255,0.2);
+  flex-shrink: 0;
+}
+.ticker-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #82d6ff;
+  box-shadow: 0 0 8px rgba(130,214,255,0.8);
+  animation: pulse-dot 1.8s ease infinite;
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.7); }
+}
+
+/* ── Shared page header banner ── */
+.page-banner {
+  background:
+    radial-gradient(ellipse 60% 80% at 90% 20%, rgba(130,214,255,0.10) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 5% 80%,  rgba(82,104,171,0.14)  0%, transparent 55%),
+    linear-gradient(155deg, #060c18 0%, #1d1932 55%, #2b2353 100%);
+}
+
 /* Video Background Styles */
 .video-background {
   position: absolute;

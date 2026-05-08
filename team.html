@@ -469,6 +469,68 @@
             border: 1px solid rgba(125,34,153,0.25);
          }
 
+         /* ─────────────────────────────────────────
+            EASTER EGG MODAL
+         ───────────────────────────────────────── */
+         #egg-modal {
+            display: none;
+            position: fixed; inset: 0; z-index: 200;
+            background: rgba(4,3,12,0.93);
+            backdrop-filter: blur(14px);
+            align-items: center; justify-content: center;
+         }
+         #egg-modal.open {
+            display: flex;
+            animation: egg-fade-in 0.45s ease forwards;
+         }
+         @keyframes egg-fade-in {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+         }
+         #egg-inner {
+            max-width: 540px; width: 90%;
+            text-align: center;
+            animation: egg-slide-up 0.45s ease forwards;
+         }
+         @keyframes egg-slide-up {
+            from { opacity: 0; transform: translateY(22px); }
+            to   { opacity: 1; transform: translateY(0); }
+         }
+         #egg-photo {
+            width: 100%;
+            border-radius: 16px;
+            border: 1px solid rgba(179,94,159,0.38);
+            box-shadow: 0 0 70px rgba(179,94,159,0.28), 0 0 20px rgba(179,94,159,0.12);
+            display: block;
+            margin-bottom: 1.75rem;
+         }
+         #egg-message {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: rgba(255,255,255,0.86);
+            font-weight: 500;
+            letter-spacing: 0.01em;
+         }
+         #egg-close {
+            margin-top: 1.75rem;
+            background: none;
+            border: 1px solid rgba(179,94,159,0.4);
+            color: #b35e9f;
+            padding: 8px 28px;
+            border-radius: 8px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+            transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+         }
+         #egg-close:hover {
+            background: rgba(179,94,159,0.12);
+            border-color: rgba(179,94,159,0.65);
+            color: #fff;
+         }
+
       </style>
    </head>
    <body>
@@ -732,43 +794,11 @@
                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
                   <div class="player-card">
-                     <img src="/images/team/yaboi-pose.jpg" alt="YaboiHack"/>
-                     <div class="card-overlay"></div>
-                     <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">YaboiHack</h4>
-                     </div>
-                  </div>
-
-                  <div class="player-card">
-                     <img src="/images/team/khaotic-pose.jpg" alt="Khaotic"/>
-                     <div class="card-overlay"></div>
-                     <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">Khaotic</h4>
-                     </div>
-                  </div>
-
-                  <div class="player-card">
-                     <img src="/images/team/yurmom-pose.jpg" alt="Yurmomm"/>
-                     <div class="card-overlay"></div>
-                     <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">Yurmomm</h4>
-                     </div>
-                  </div>
-
-                  <div class="player-card">
                      <img src="/images/team/marco-pose.jpg" alt="Marcocoolnes"/>
                      <div class="card-overlay"></div>
                      <div class="role-badge">IGL</div>
                      <div class="player-info">
                         <h4 class="text-2xl font-black text-white uppercase leading-none">Marcocoolnes</h4>
-                     </div>
-                  </div>
-
-                  <div class="player-card">
-                     <img src="/images/team/roob-pose.JPG" alt="roobydoobydoo"/>
-                     <div class="card-overlay"></div>
-                     <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">roobydoobydoo</h4>
                      </div>
                   </div>
 
@@ -789,18 +819,50 @@
                   </div>
 
                   <div class="player-card">
-                     <img src="/images/team/emaleman.jpg" alt="theemaleman"/>
+                     <img src="/images/team/roob-pose.JPG" alt="roobydoobydoo"/>
                      <div class="card-overlay"></div>
                      <div class="player-info">
-                        <h4 class="text-2xl font-black text-white uppercase leading-none">theemaleman</h4>
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">roobydoobydoo</h4>
                      </div>
                   </div>
 
                   <div class="player-card">
+                     <img src="/images/team/yurmom-pose.jpg" alt="Yurmomm"/>
+                     <div class="card-overlay"></div>
+                     <div class="player-info">
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">Yurmomm</h4>
+                     </div>
+                  </div>
+
+                  <div class="player-card" id="jaycbytes-egg" style="cursor:pointer;" title="">
                      <img src="/images/team/jaycbytes-pose.jpg" alt="jaycbytes"/>
                      <div class="card-overlay"></div>
                      <div class="player-info">
                         <h4 class="text-2xl font-black text-white uppercase leading-none">jaycbytes</h4>
+                     </div>
+                  </div>
+
+                  <div class="player-card">
+                     <img src="/images/team/yaboi-pose.jpg" alt="YaboiHack"/>
+                     <div class="card-overlay"></div>
+                     <div class="player-info">
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">YaboiHack</h4>
+                     </div>
+                  </div>
+
+                  <div class="player-card">
+                     <img src="/images/team/khaotic-pose.jpg" alt="Khaotic"/>
+                     <div class="card-overlay"></div>
+                     <div class="player-info">
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">Khaotic</h4>
+                     </div>
+                  </div>
+
+                  <div class="player-card">
+                     <img src="/images/team/emaleman.jpg" alt="theemaleman"/>
+                     <div class="card-overlay"></div>
+                     <div class="player-info">
+                        <h4 class="text-2xl font-black text-white uppercase leading-none">theemaleman</h4>
                      </div>
                   </div>
 
@@ -820,6 +882,21 @@
          </div>
 
       </main>
+
+      <!-- ── Easter Egg Modal ── -->
+      <div id="egg-modal" role="dialog" aria-modal="true" aria-label="A message from Jay">
+         <div id="egg-inner">
+            <img id="egg-photo" src="/images/team/group-photo-family.jpg" alt="The Wildcats Esports family" />
+            <p id="egg-message">
+               Competing with you all, even with minimal game knowledge, is one of the best things that's happened to me.
+               The hours of practice, the strategizing, the games that ran way too late…
+               it all meant more than just gaming to me. Thank you for believing in me.<br/><br/>
+               Transferring is going to hurt, but I'll take this feeling with me everywhere I go.
+               Thank you for everything. I love you all. 🐾
+            </p>
+            <button id="egg-close">Close</button>
+         </div>
+      </div>
 
       <!-- ── Footer ── -->
       <footer class="bg-port-gore border-t border-mirage py-12">
@@ -968,6 +1045,37 @@
                document.getElementById(`tab-${tab}`).classList.remove('hidden');
             });
          });
+
+         // ── Easter Egg — tap/click jaycbytes card 5× ────────
+         (function () {
+            const card  = document.getElementById('jaycbytes-egg');
+            const modal = document.getElementById('egg-modal');
+            const closeBtn = document.getElementById('egg-close');
+            if (!card || !modal) return;
+
+            let clicks = 0;
+            let resetTimer;
+
+            card.addEventListener('click', () => {
+               clicks++;
+               clearTimeout(resetTimer);
+               resetTimer = setTimeout(() => { clicks = 0; }, 3000);
+               if (clicks >= 5) {
+                  clicks = 0;
+                  clearTimeout(resetTimer);
+                  modal.classList.add('open');
+                  document.body.style.overflow = 'hidden';
+               }
+            });
+
+            function closeModal() {
+               modal.classList.remove('open');
+               document.body.style.overflow = '';
+            }
+            closeBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+         })();
       </script>
 
    </body>
