@@ -190,28 +190,6 @@
         "/images/events/IMG_1602.JPG",
         "/images/events/IMG_1612.JPG"
       ]
-    },
-    {
-      "id": "2026-larc-game-con",
-      "title": "2026 LARC Game Con",
-      "date": "2026-05-09",
-      "dateDisplay": "May 9, 2026",
-      "location": "LATTC",
-      "description": "We attended the annual Game Con! Our Marvel Rivals team placed second, winning $600! Our president, Sophie, was on a panel about student leadership and our treasurer, Ethan, placed third in the Street Fighter 6 tournament.",
-      "status": "past",
-      "badgeClass": "badge-past",
-      "badgeText": "Past Event",
-      "dateColor": "text-energy-yellow",
-      "image": "/images/events/IMG_7297.JPG",
-      "imageAlt": "2026 LARC Game Con",
-      "galleryId": "2026-larc-game-con",
-      "gallery": [
-        "/images/events/IMG_7297.JPG",
-        "/images/events/IMG_1725.JPG",
-        "/images/events/IMG_5914.HEIC",
-        "/images/events/IMG_7274.JPG",
-        "/images/events/IMG_1787.jpg"
-      ]
     }
   ]
 }
