@@ -212,6 +212,28 @@
         "/images/events/IMG_1787.jpg",
         "/images/events/IMG_1725.JPG"
       ]
+    },
+    {
+      "id": "dd-one-shot-with-dm-ryan",
+      "title": "D&D One Shot with DM Ryan",
+      "date": "2026-05-24",
+      "dateDisplay": "May 24, 2026",
+      "location": "Turn Zero Games",
+      "description": "We had a D&D one shot led by the very talented DM Ryan. It was a fun adventure, filled with shenanigans, challenging battles, and a stinky necromancer cat. Check out the art for the adventure in our discord!",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/IMG_0525.JPG",
+      "imageAlt": "D&D One Shot with DM Ryan",
+      "galleryId": "dd-one-shot-with-dm-ryan",
+      "gallery": [
+        "/images/events/IMG_0525.JPG",
+        "/images/events/IMG_1911.JPG",
+        "/images/events/IMG_1909.JPG",
+        "/images/events/IMG_1907.JPG",
+        "/images/events/IMG_1905.JPG"
+      ]
     }
   ]
 }
