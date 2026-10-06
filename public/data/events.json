@@ -236,28 +236,6 @@
       ]
     },
     {
-      "id": "fall-2026-club-rush",
-      "title": "Fall 2026 Club Rush",
-      "date": "2026-09-29",
-      "dateDisplay": "September 29, 2026",
-      "location": "WLAC GC Courtyard",
-      "description": "At the beginning of the year, ASO hosts a club rush where all the clubs have a booth and advertise themselves to the student body. We set up a Mario Kart station and recruited a bunch of new members. And we definitely took advantage of the photo booth :P",
-      "status": "past",
-      "badgeClass": "badge-past",
-      "badgeText": "Past Event",
-      "dateColor": "text-energy-yellow",
-      "image": "/images/events/IMG_3364.jpg",
-      "imageAlt": "Fall 2026 Club Rush",
-      "galleryId": "fall-2026-club-rush",
-      "gallery": [
-        "/images/events/IMG_3364.jpg",
-        "/images/events/IMG_3430.jpg",
-        "/images/events/IMG_3282.jpg",
-        "/images/events/IMG_2552.jpg",
-        "/images/events/IMG_6206.JPG"
-      ]
-    },
-    {
       "id": "2026-fall-club-rush",
       "title": "2026 Fall Club Rush",
       "date": "2026-09-29",
