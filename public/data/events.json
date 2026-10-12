@@ -256,6 +256,28 @@
         "/images/events/IMG_2562.JPG",
         "/images/events/IMG_6206.JPG"
       ]
+    },
+    {
+      "id": "dd-one-shot-kinda-with-dm-jack",
+      "title": "D&D One Shot (kinda) with DM Jack",
+      "date": "2026-10-11",
+      "dateDisplay": "October 11, 2026",
+      "location": "Next Gen Games",
+      "description": "We had a D&D one shot (that lasted two sessions oops) with the amazing DM Jack! The adventure led us through warehouses, sewers, and Mardi Gras parties. At the end, a Mind Flayer exploded us, leading to a TPK, but we had a good time regardless (blame the cat for our untimely demise).",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/IMG_3747.JPG",
+      "imageAlt": "D&D One Shot (kinda) with DM Jack",
+      "galleryId": "dd-one-shot-kinda-with-dm-jack",
+      "gallery": [
+        "/images/events/IMG_3747.JPG",
+        "/images/events/IMG_2633.JPG",
+        "/images/events/IMG_2503.JPG",
+        "/images/events/IMG_2660.JPG",
+        "/images/events/IMG_2644.JPG"
+      ]
     }
   ]
 }
