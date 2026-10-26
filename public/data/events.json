@@ -278,6 +278,28 @@
         "/images/events/IMG_2660.JPG",
         "/images/events/IMG_2644.JPG"
       ]
+    },
+    {
+      "id": "2026-spooky-smash-tournament",
+      "title": "2026 Spooky Smash Tournament",
+      "date": "2026-10-22",
+      "dateDisplay": "October 22, 2026",
+      "location": "TLC 405",
+      "description": "Our second annual Spooky Smash Tournament! Congratulations to our winner Jonathan and runner-up Rob! It was great seeing all the close matches and competitive spirit. Looking forward to next year!",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/IMG_5773.jpg",
+      "imageAlt": "2026 Spooky Smash Tournament",
+      "galleryId": "2026-spooky-smash-tournament",
+      "gallery": [
+        "/images/events/IMG_5773.jpg",
+        "/images/events/IMG_5770.jpg",
+        "/images/events/IMG_5763.jpg",
+        "/images/events/IMG_3932.jpg",
+        "/images/events/IMG_3935.jpg"
+      ]
     }
   ]
 }
