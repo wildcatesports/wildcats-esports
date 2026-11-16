@@ -300,6 +300,28 @@
         "/images/events/IMG_3932.jpg",
         "/images/events/IMG_3935.jpg"
       ]
+    },
+    {
+      "id": "magic-the-gathering-tournament",
+      "title": "Magic the Gathering Tournament",
+      "date": "2026-11-13",
+      "dateDisplay": "November 13, 2026",
+      "location": "TLC 405",
+      "description": "We held our first Magic the Gathering Tournament! Congrats to the winner, Malachi, and his Dino deck, which beat Hulk and the cat girl. The grand prize was five MTG packs which our competitors split between each other in a showing of good competitive spirit. Looking forward to our future tournaments",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/IMG_2904.JPG",
+      "imageAlt": "Magic the Gathering Tournament",
+      "galleryId": "magic-the-gathering-tournament",
+      "gallery": [
+        "/images/events/IMG_2904.JPG",
+        "/images/events/IMG_2891.JPG",
+        "/images/events/IMG_2889.JPG",
+        "/images/events/IMG_2895.JPG",
+        "/images/events/IMG_2907.JPG"
+      ]
     }
   ]
 }
