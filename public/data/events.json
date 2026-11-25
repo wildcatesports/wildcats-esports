@@ -322,6 +322,28 @@
         "/images/events/IMG_2895.JPG",
         "/images/events/IMG_2907.JPG"
       ]
+    },
+    {
+      "id": "2026-wlac-overwatch-invitational",
+      "title": "2026 WLAC Overwatch Invitational",
+      "date": "2026-11-19",
+      "dateDisplay": "November 19, 2026",
+      "location": "TLC 405",
+      "description": "We held our first Overwatch invitational! Five teams competed with students from all over the district. Congratulations to ELAC for winning and WLAC for second place. Thank you to GGG for sponsoring the tournament and supporting us. We had such a great time watching everyone compete and we're looking forward to our next tournament!",
+      "status": "past",
+      "badgeClass": "badge-past",
+      "badgeText": "Past Event",
+      "dateColor": "text-energy-yellow",
+      "image": "/images/events/20261119_212711.jpg",
+      "imageAlt": "2026 WLAC Overwatch Invitational",
+      "galleryId": "2026-wlac-overwatch-invitational",
+      "gallery": [
+        "/images/events/20261119_212711.jpg",
+        "/images/events/rn_image_picker_lib_temp_c2d8a475-0cb5-45b0-b75a-52818ea2b0fe.jpg",
+        "/images/events/20261119_212607.JPG",
+        "/images/events/IMG_2920.JPG",
+        "/images/events/IMG_2956.JPG"
+      ]
     }
   ]
 }
